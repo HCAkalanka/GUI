@@ -1,0 +1,25 @@
+/* Simple Footer Styles */
+.simple-footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    position: relative;  /* Ensure the footer stays at the bottom */
+    bottom: 0;  /* Places the footer at the bottom of the page */
+    width: 100%;  /* Ensures the footer takes full width */
+    margin-top: auto; /* Pushes the footer to the bottom if content is less */
+  }
+  
+  /* If using React Router with <Routes> to show dynamic pages */
+  body, html {
+    height: 100%;  /* Make sure the height is 100% for full page */
+    margin: 0; /* Remove default margin */
+  }
+  
+  .App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the container takes up at least 100% height */
+  }
+  
